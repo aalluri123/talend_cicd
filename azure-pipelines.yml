@@ -99,3 +99,4 @@ steps:
         goals: 'deploy' #compile / deploy
         options: '--batch-mode --settings $(settings_xml.secureFilePath) -pl $(jobs_to_build) -am -fae $(talend_ci_config)'
 
+
