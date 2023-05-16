@@ -6,7 +6,7 @@ pool:
  vmImage: 'ubuntu-latest'
 
 variables:
-- group: Talend Variables
+- group: azure_ci_cd
 - name: project_name
   value: 'talend_cicd_akhil'
 #Variable corresponding to the specific artifact you want to build. Define it as a variable in the GUI so it can be overwritten at runtime. If you don't use it, all existing artifacts in your project will be executed and published. 
